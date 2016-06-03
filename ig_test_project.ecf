@@ -9,10 +9,10 @@
 		<setting name="console_application" value="true"/>
 		<library name="base" location="$ISE_LIBRARY\library\base\base-safe.ecf"/>
 
-		<library name="randomizer" location="$GITHUB\randomizer\randomizer.ecf"/>
-		<library name="pub_sub" location="$GITHUB\pub_sub\pub_sub.ecf"/>
-		<library name="state_machine" location="$GITHUB\state_machine\state_machine.ecf"/>
-		<library name="validation" location="$GITHUB\validation\validation.ecf"/>
+		<library name="randomizer" location="..\randomizer\randomizer.ecf"/>
+		<library name="pub_sub" location="..\pub_sub\pub_sub.ecf"/>
+		<library name="state_machine" location="..\state_machine\state_machine.ecf"/>
+		<library name="validation" location="..\validation\validation.ecf"/>
 
 		<cluster name="ig_test_project" location=".\" recursive="true">
 			<file_rule>
